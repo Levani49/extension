@@ -1,8 +1,8 @@
 const userName = localStorage.getItem("name");
 
-if (userName === null) {
-  window.location = "form.html";
-}
+// if (userName === null) {
+//   window.location = "form.html";
+// }
 let addUserName;
 
 const addItem = (ev) => {

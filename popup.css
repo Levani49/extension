@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +10,7 @@ body {
 }
 
 .parentContainer {
-  width: 660px;
-  height: 480px;
+  width: 460px;
   height: 100vh;
   display: grid;
   grid-template-columns: 50px 50px;
@@ -33,10 +34,12 @@ body {
 .name {
   margin-left: 50px;
   margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .coins {
   margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -73,6 +76,25 @@ body {
   border: 1px solid rgb(189, 113, 113);
   overflow: hidden;
   background: linear-gradient(to right, green 50%, rgb(156, 152, 152) 50%);
+  margin-top: -10px;
+}
+
+.shopButton {
+  background-color: rgb(32, 227, 249);  
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: -70px;
+}
+
+.shopButton:hover {
+  background-color: rgb(13, 128, 181);
 }
 
 .leaderBoardButton {
@@ -90,22 +112,4 @@ body {
 
 .leaderBoardButton:hover {
   background-color: rgb(232, 26, 26);
-}
-
-.shopButton {
-  background-color: rgb(32, 227, 249);  
-  border: none;
-  color: white;
-  padding: 10px 22px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  margin-top: -60px;
-}
-
-.shopButton:hover {
-  background-color: rgb(13, 128, 181);
 }
