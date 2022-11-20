@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.parentContainer {
+  width: 660px;
+  height: 480px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 100px 100px 100px;
+  grid-column-gap: 270px; 
+}
+
+.userData {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 70px;
+}
+
+.userData img{
+  width: 90px;
+  height: 90px;
+}
+
+.name {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.coins {
+  margin-top: 0px;
+}
+
+
+.userResult {
+  width: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.reportButton {
+  background-color: #158318;  
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.reportButton:hover {
+  background-color: #12cd18;
+}
+
+.progressBar {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(189, 113, 113);
+  overflow: hidden;
+  background: linear-gradient(to right, green 50%, rgb(156, 152, 152) 50%);
+}
+
+.leaderBoardButton {
+  background-color: rgb(249, 74, 74);  
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.leaderBoardButton:hover {
+  background-color: rgb(232, 26, 26);
+}
+
+.shopButton {
+  background-color: rgb(32, 227, 249);  
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: -60px;
+}
+
+.shopButton:hover {
+  background-color: rgb(13, 128, 181);
+}
